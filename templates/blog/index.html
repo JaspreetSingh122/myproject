@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% block content%}
+  {% for post in poster%}
+
+      <h1>{{post.tittle}}</h1>
+      <h3> Name is {{post.Name}}</h3>
+      <h3> Number is {{post.Number}}</h3>
+
+  {% endfor%}
+
+{% endblock content%}
+ 
